@@ -1,7 +1,7 @@
 (function () {
   const NUM = ["①", "②", "③", "④", "⑤"];
   const app = document.getElementById("app");
-  const sets = window.QUIZ_SETS;
+  const sets = window.QUIZ_SETS.concat(window.QUIZ_SETS_EN || []);
 
   // 세트별 진행 상황: { order: [문제 번호], i: 현재 위치, results: { 문제 번호: true/false } }
   const store = {

@@ -1,4 +1,4 @@
-// 사회 문제지 HTML에서 자동 생성 (tools/extract_quiz.py)
+// 문제지 HTML에서 자동 생성 (tools/extract_quiz.py)
 window.QUIZ_SETS = [
  {
   "id": "social-basic",
